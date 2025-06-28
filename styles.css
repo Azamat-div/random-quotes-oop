@@ -5,14 +5,13 @@ body {
 }
 
 .container {
-  max-width: 700px;
+  max-width: 600px;
   margin: 20px auto;
   text-align: center;
 }
 
 .btn {
-  padding: 13px 20px;
-  margin: 10px;
+  padding: 10px 20px;
   font-size: 16px;
   color: white;
   border: none;
@@ -26,23 +25,6 @@ body {
 
 .btn-primary:hover {
   background-color: #0056b3;
-}
-
-.btn-secondary {
-  background-color: #28a745;
-}
-
-.btn-secondary:hover {
-  background-color: #218838;
-}
-
-.btn-ternary {
-  background-color: #ffc107;
-  color: black;
-}
-
-.btn-ternary:hover {
-  background-color: #ffb400;
 }
 
 .btn-danger {
@@ -67,8 +49,8 @@ body {
 }
 
 .quote-author {
-  font-weight: bold;
   margin-block-start: 0.7em;
+  font-weight: bold;
 }
 
 .favorites-container {
