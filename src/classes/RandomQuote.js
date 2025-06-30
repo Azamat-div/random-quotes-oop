@@ -10,4 +10,7 @@ class RandomQuote {
   }
 }
 
+const testRandomQuote = new RandomQuote();
+RandomQuote.getRandomQuote();
+
 export default RandomQuote;
