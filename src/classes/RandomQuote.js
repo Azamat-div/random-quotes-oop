@@ -20,16 +20,6 @@ class RandomQuote {
       console.error(error);
     }
   }
-
-  /* static getRandomQuoteViaAPI() {
-    const url = 'https://quoteslate.vercel.app/api/quotes/random';
-    const options = { headers: { 'Content-Type': 'application/json' } };
-
-    return fetch(url, options)
-      .then((response) => response.json())
-      .then(({ id, quote: text, author }) => new Quote(id, text, author))
-      .catch((error) => console.error(error));
-  } */
 }
 
 export default RandomQuote;
