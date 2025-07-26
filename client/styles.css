@@ -67,8 +67,8 @@ body {
 }
 
 .quote-author {
-  margin-block-start: 0.7em;
   font-weight: bold;
+  margin-block-start: 0.7em;
 }
 
 .favorites-container {

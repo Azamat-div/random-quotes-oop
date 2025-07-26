@@ -30,7 +30,7 @@ class RandomQuotesApp {
   }
 
   randomQuoteHandler() {
-    this.changeCurrentQuote(RandomQuote.getRandomQuote);
+    this.changeCurrentQuote(RandomQuote.getRandomQuote());
   }
 
   async handleRandomQuoteViaAPI(apiIsOwn = false) {
